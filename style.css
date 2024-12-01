@@ -1,0 +1,75 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: #FCE38A;
+    color: #333;
+}
+
+
+header {
+    background: #FF715B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.navbar .logo {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+.burger-menu {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.hero {
+    background: #3F88C5;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.card {
+    background: #FF715B;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 2px solid #FF715B;
+    border-radius: 5px;
+}
+
+
+button {
+    background: #FF715B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
